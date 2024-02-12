@@ -7,11 +7,13 @@ import Input from './components/inputs/Input'
 import Model from './components/model/Model'
 import Login from './pages/auth/Login'
 import ProductCard from './components/cards/ProductCard'
+import MainRoute from './Navigation/MainRoute'
+import Home from './pages/home/Home'
 
 function App() {
   return (
     <>
-    <ProductCard/>
+    <MainRoute/>
     </>
   )
 }
