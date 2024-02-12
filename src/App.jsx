@@ -1,22 +1,28 @@
 
 import { useEffect, useState } from 'react'
 import './App.css'
-import Header from './components/Header'
 import Button from './components/buttons/Button'
 import Input from './components/inputs/Input'
 import Model from './components/model/Model'
 import Login from './pages/auth/Login'
 import ProductCard from './components/cards/ProductCard'
+import MyCard from './components/cards/MyCard'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
     <>
-    <ProductCard/>
+     
     </>
   )
 }
 
 export default App
+
+    // 3 <div className="flex justify-around">
+    //   <ProductCard/>
+    //   <MyCard/>
+    // </div>
 
 // 1 const [isVisible,setIsVisible]= useState(false)
 // const [title,setTitle] = useState("login")
