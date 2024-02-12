@@ -5,10 +5,13 @@ const Home = () => {
 const navigate= useNavigate()
 
     return ( 
-        <>       
+        <>      
+        <div className="flex gap-10">
             <Button title="Home"/>
             <Button title="Services" onClick={()=>navigate("/services")}/>
-            <Button title="Contact Us" conClick={()=>navigate("/contactus")}/>
+            <Button title="ContactUs" onClick={()=>navigate("/contactus")}/>   
+        </div> 
+
         </>
      );
 }
