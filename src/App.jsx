@@ -9,11 +9,12 @@ import Login from './pages/auth/Login'
 import ProductCard from './components/cards/ProductCard'
 import MainRoute from './Navigation/MainRoute'
 import Home from './pages/home/Home'
+import ProductProfile from './pages/product/ProductProfile'
 
 function App() {
   return (
     <>
-    <MainRoute/>
+    <ProductProfile/>
     </>
   )
 }
