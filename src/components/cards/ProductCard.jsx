@@ -3,7 +3,8 @@ import { FaRegStar, FaStar } from "react-icons/fa";
 const ProductCard=()=>{
     return(
         <>
-            <div className="p-3 rounded-md flex flex-col gap-4 shadow-lg w-xs ">
+        <div className=" flex justify-center items-center">
+            <div className="p-3 rounded-md flex flex-col gap-4 shadow-xl w-xs justify-center ">
                 <div className="bg-blue-500 w-11 rounded-md text-white font-bold p-1">
                     New
                 </div>
@@ -28,6 +29,7 @@ const ProductCard=()=>{
                     </div>
                 </div>
             </div>
+        </div>
         </>
     )
 }
