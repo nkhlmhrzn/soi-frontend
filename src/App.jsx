@@ -8,11 +8,14 @@ import Login from './pages/auth/Login'
 import ProductCard from './components/cards/ProductCard'
 import MyCard from './components/cards/MyCard'
 import Footer from './components/footer/Footer'
+import MainRoute from './Navigation/MainRoute'
+import Home from './pages/home/Home'
 
 function App() {
   return (
     <>
      
+    <MainRoute/>
     </>
   )
 }
