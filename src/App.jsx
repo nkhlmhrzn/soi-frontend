@@ -10,12 +10,14 @@ import MyCard from './components/cards/MyCard'
 import Footer from './components/footer/Footer'
 import MainRoute from './Navigation/MainRoute'
 import Home from './pages/home/Home'
+import ProductProfile from './pages/product/ProductProfile'
 
 function App() {
   return (
     <>
      
     <MainRoute/>
+    <ProductProfile/>
     </>
   )
 }
