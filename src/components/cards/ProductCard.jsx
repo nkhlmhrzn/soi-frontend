@@ -1,6 +1,17 @@
+import { useEffect, useState } from "react";
 import { FaRegStar, FaStar } from "react-icons/fa";
 
 const ProductCard=()=>{
+    const [product,setproduct]= useState()
+    const fetchproduct = async()=>{
+        fetch('https://fakestoreapi.com/products/1')
+            .then(res=>res.json())
+            .then(json=>setproduct(json))
+    }
+    useEffect(()=>{
+        fetchproduct()
+    },[])
+    console.log(product)
     return(
         <>
             <div className="p-3 rounded-md flex flex-col gap-4 shadow-lg w-xs ">
@@ -13,10 +24,10 @@ const ProductCard=()=>{
                 
                 <div className="flex flex-col gap-2 px-2">
                     <div className="font-bold text-xl ">
-                        6 Million Dollar
+                        {product.title}
                     </div>
                     <div className="font-bold text-xl ">
-                        Rs. 50000
+                        Rs. {product.price}
                     </div>
                     <div className="flex items-center gap-2">
                         <div className="flex gap-1 text-[#FFD700]">
