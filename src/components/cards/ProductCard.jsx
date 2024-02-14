@@ -11,7 +11,7 @@ const ProductCard=()=>{
     useEffect(()=>{
         fetchproduct()
     },[])
-    console.log(product)
+    
     return(
         <>
         <div className=" flex justify-center items-center">

@@ -17,8 +17,9 @@ function App() {
     <>
      
     {/* <MainRoute/> */}
-    <ProductCard/>
-    <ProductProfile/>
+    {/* <ProductCard/>
+    <ProductProfile/> */}
+    <Footer/>
     </>
   )
 }

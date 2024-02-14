@@ -10,7 +10,7 @@ const ProductProfile = () => {
     const [active,setactive] = useState(img[0])
     return ( 
         <>
-            <div className="flex flex-col gap-3 bg-gray-200 p-6">
+            <div className="flex flex-col gap-4 bg-gray-200 p-6">
                 <div className="h-sm w-sm">
                     <img src={active.url} alt="" className="w-full h-full" />
                 </div>
