@@ -11,15 +11,21 @@ import Footer from './components/footer/Footer'
 import MainRoute from './Navigation/MainRoute'
 import Home from './pages/home/Home'
 import ProductProfile from './pages/product/ProductProfile'
+import ProductDetail from './pages/product/component/ProductDetail'
+import ProductGalary from './pages/product/component/ProductGalary'
+
 
 function App() {
   return (
     <>
      
-    {/* <MainRoute/> */}
+    <MainRoute/>
+   
     {/* <ProductCard/>
-    <ProductProfile/> */}
-    <Footer/>
+    <ProductProfile/>
+    <Footer/> */}
+    {/* <MyCard/> */}
+  
     </>
   )
 }

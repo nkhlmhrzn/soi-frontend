@@ -9,11 +9,14 @@ const ProductCard=()=>{
             .then(json=>setproduct(json))
     }
     useEffect(()=>{
-        fetchproduct()
+            fetchproduct()
     },[])
     
     return(
         <>
+        {
+            product &&
+
         <div className=" flex justify-center items-center">
             <div className="p-3 rounded-md flex flex-col gap-4 shadow-xl w-xs justify-center ">
                 <div className="bg-blue-500 w-11 rounded-md text-white font-bold p-1">
@@ -41,6 +44,7 @@ const ProductCard=()=>{
                 </div>
             </div>
         </div>
+        }
         </>
     )
 }

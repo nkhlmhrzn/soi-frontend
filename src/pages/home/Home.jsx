@@ -6,10 +6,11 @@ const navigate= useNavigate()
 
     return ( 
         <>      
-        <div className="flex gap-10">
+        <div className="flex gap-10 p-5">
             <Button title="Home"/>
             <Button title="Services" onClick={()=>navigate("/services")}/>
-            <Button title="ContactUs" onClick={()=>navigate("/contactus")}/>   
+            <Button title="ContactUs" onClick={()=>navigate("/contactus")}/>  
+            <Button title="Product" onClick={()=>navigate("/product")}/>
         </div> 
 
         </>
