@@ -8,21 +8,22 @@ const navigate= useNavigate()
         <>      
         
         <div className="">
-            <div  className="background-image h-screen w-screen relative ">
-
-                <div className="absolute w-full h-full">
+            <div  className=" h-screen w-screen relative ">
 
             <img src="https://www.pacific-research.com/wp-content/uploads/2020/04/shutterstock_251380513.jpg " className="w-full h-full"></img>
 
+                <div className="absolute w-full h-[80vh] top-0 flex flex-col justify-center pl-20 gap-4">
 
-<div className="">
 
-            <h1 className="pl-10 font-bold tex-2xl font-lexend-deca">Welcome To Error Coding</h1>
-</div>
+
+            <div className="font-bold text-7xl font-lexend-deca text-primary leading-none">
+                
+               <div className="mb-4">
+                 Welcome To</div> <div className="text-white px-2  bg-primary rounded-lg inline">My Shop</div></div>
+            <div className="text-2xl font-medium text-white">Enjoy the real experience of Shopping Digitallly!!!</div>
             </div>
                 </div>
 
-Welcome to ecommerce
             {/* <Button title="Home"/>
             <Button title="Services" onClick={()=>navigate("/services")}/>
             <Button title="ContactUs" onClick={()=>navigate("/contactus")}/>  
