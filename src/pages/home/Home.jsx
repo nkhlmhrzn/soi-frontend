@@ -1,13 +1,13 @@
 import { Link, useNavigate } from "react-router-dom";
 import Button from "../../components/buttons/Button";
+import MyCard from "../../components/cards/MyCard";
+import FeatureProduct from "./FeatureProduct";
 
 const Home = () => {
-const navigate= useNavigate()
-
     return ( 
         <>      
         
-        <div className="">
+        <div className="mb-10">
             <div  className=" h-screen w-screen relative ">
 
             <img src="https://www.pacific-research.com/wp-content/uploads/2020/04/shutterstock_251380513.jpg " className="w-full h-full"></img>
@@ -24,12 +24,8 @@ const navigate= useNavigate()
             </div>
                 </div>
 
-            {/* <Button title="Home"/>
-            <Button title="Services" onClick={()=>navigate("/services")}/>
-            <Button title="ContactUs" onClick={()=>navigate("/contactus")}/>  
-            <Button title="Product" onClick={()=>navigate("/product")}/> */}
         </div> 
-
+        <FeatureProduct/>
         </>
      );
 }
