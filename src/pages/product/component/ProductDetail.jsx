@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom";
 
 
 const ProductDetail = ({detail}) => {
-    const navigate= useNavigate()
+    
     return ( 
         <>
-        <div className="flex flex-col p-4 text-md">
+        <div className="flex flex-col bg p-4 text-md">
             <div className="font-bold font-lexend-deca text-[#014061] p-3 text-[40px]">
                 <h1>{detail?.title}</h1>                   
             </div>
@@ -24,7 +24,7 @@ const ProductDetail = ({detail}) => {
                 Description: {detail.description}
             </div>
             <div className="flex justify-center pt-5">
-                <Button title="Add to Cart" onClick={()=>navigate("/")}/>
+                <Button title="Add to Cart"/>
             </div>
         </div>
         

@@ -8,11 +8,12 @@ import Login from './pages/auth/Login'
 import ProductCard from './components/cards/ProductCard'
 import MyCard from './components/cards/MyCard'
 import Footer from './components/footer/Footer'
-import MainRoute from './Navigation/MainRoute'
+import MainRoute from './navigation/MainRoute'
 import Home from './pages/home/Home'
 import ProductProfile from './pages/product/ProductProfile'
 import ProductDetail from './pages/product/component/ProductDetail'
 import ProductGalary from './pages/product/component/ProductGalary'
+import Navbar from './components/navbar/Navbar'
 
 
 function App() {
@@ -20,11 +21,7 @@ function App() {
     <>
      
     <MainRoute/>
-   
-    {/* <ProductCard/>
-    <ProductProfile/>
-    <Footer/> */}
-    {/* <MyCard/> */}
+
   
     </>
   )
