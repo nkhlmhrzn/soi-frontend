@@ -8,14 +8,14 @@ import { HiDotsCircleHorizontal } from "react-icons/hi";
 const Footer=() =>{
     return(
         <>
-        <div className="w-screen bg-[#014061]  ">
-        <div className="flex gap-40 text-slate-100 ">
-            <div className="flex flex-col justify-center px-10 ">
-                <h1 className="font-bold ">LOGO</h1>
+        <div className="w-screen bg-primary  ">
+        <div className="flex text-slate-100 justify-around">
+            <div className="flex flex-col justify-center ">
+                <h1 className="font-bold text-2xl">LOGO</h1>
                 <p>SOLOGAN COMPANY</p>
             </div>
-            <div className="flex gap-28 justify-center items-center">
-                <div className="flex flex-col">
+            <div className="flex gap-28 justify-around items-center">
+                <div className="">
 
                 <div>
                     WEEBLY THEMES
@@ -27,7 +27,7 @@ const Footer=() =>{
                     SUBMIT A TICKET
                 </div>
                 </div>
-                <div className="flex flex-col">
+                <div className="">
 
                     <div>
                         SERVICES
@@ -36,7 +36,7 @@ const Footer=() =>{
                         THEME TWEAK
                     </div>
                 </div>
-                <div className="flex flex-col">
+                <div className="">
 
                 <div>
                     SHOWCASE
@@ -48,7 +48,7 @@ const Footer=() =>{
                     SUPPORT
                 </div>
                 </div>
-                <div className="flex flex-col">
+                <div className="">
 
                 <div>
                     ABOUT US
@@ -65,20 +65,20 @@ const Footer=() =>{
         </div>
         <div className="w-full h-[1.5px] bg-white my-5">
         </div>
-        <div className="flex justify-center gap-5 ">
-            <div className="hover:scale-125 trasition-all cursor-pointer">
+        <div className="flex justify-center gap-5 text-white text-xl">
+            <div className="hover:scale-150 trasition-all cursor-pointer">
                 <FaFacebook/>
             </div>
-            <div className="hover:scale-125 trasition-all cursor-pointer">
+            <div className="hover:scale-150 trasition-all cursor-pointer">
             <AiFillTwitterCircle/>
             </div>
-            <div className="hover:scale-125 trasition-all cursor-pointer">
+            <div className="hover:scale-150 trasition-all cursor-pointer">
             <FaWifi/>
             </div>
-            <div className="hover:scale-125 trasition-all cursor-pointer">
+            <div className="hover:scale-150 trasition-all cursor-pointer">
             <FaGooglePlus/>
             </div>
-            <div className="hover:scale-125 trasition-all cursor-pointer">
+            <div className="hover:scale-150 trasition-all cursor-pointer">
             <HiDotsCircleHorizontal/>
             </div>
         </div>
