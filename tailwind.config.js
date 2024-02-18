@@ -17,7 +17,7 @@ export default {
         "lexend-deca":["Lexend Deca","sans-serif"]
       },
       colors:{
-        primary:"#FF4858",
+        primary:"#014061",
         secondary:"#1B7F79",
         background:"#00CCC0",
       },
@@ -27,6 +27,7 @@ export default {
         md:"28rem",
         lg:"48rem",
         xl:"64rem",
+        "2xl":"80rem"
       },
       height:{
         xs:"20rem",
