@@ -17,8 +17,9 @@ const FeatureProduct = () => {
             <ProductCard id={6}/>
             <ProductCard id={7}/>
             <ProductCard id={8}/>
-
+            
         </div>
+        
             </div>
         </div>
         </>
