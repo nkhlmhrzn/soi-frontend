@@ -1,3 +1,4 @@
+import Button from "../../components/buttons/Button";
 import MyCard from "../../components/cards/MyCard";
 import ProductCard from "../../components/cards/ProductCard";
 
@@ -5,9 +6,12 @@ const FeatureProduct = () => {
     return ( 
         <>
         <div className="mx-4 w-full flex justify-center my-20">
-            <div>
+            <div >
+                <div className="flex justify-between">
             <section className="font-bold text-black font-lexend-deca text-3xl my-6">Feature Product</section>
-
+            <Button title="View All"></Button>
+                </div>
+            
         <div className="grid grid-cols-2 lg:grid-cols-4  w-full xl:w-2xl gap-5 cursor-pointer">
             <ProductCard id={1}/>
             <ProductCard id={2}/>
@@ -19,8 +23,8 @@ const FeatureProduct = () => {
             <ProductCard id={8}/>
             
         </div>
-        
             </div>
+        
         </div>
         </>
      );
